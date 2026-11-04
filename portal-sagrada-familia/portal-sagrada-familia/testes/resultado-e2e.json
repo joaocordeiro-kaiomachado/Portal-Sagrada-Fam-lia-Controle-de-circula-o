@@ -1,0 +1,146 @@
+[
+  [
+    "PASS",
+    "Rota protegida redireciona para login sem sessão"
+  ],
+  [
+    "PASS",
+    "Login com senha errada mostra erro claro"
+  ],
+  [
+    "PASS",
+    "Login do administrador abre o painel"
+  ],
+  [
+    "PASS",
+    "Admin cria professores pela tela Usuários (Edge Function)"
+  ],
+  [
+    "PASS",
+    "Validação do formulário bloqueia campos vazios"
+  ],
+  [
+    "PASS",
+    "Motivo \"Outro\" exige observação; data futura bloqueada"
+  ],
+  [
+    "PASS",
+    "Limpar formulário zera os campos"
+  ],
+  [
+    "PASS",
+    "Admin registra autorização com confirmação visual"
+  ],
+  [
+    "PASS",
+    "Registros adicionais (vários motivos, turmas e datas)"
+  ],
+  [
+    "PASS",
+    "Professor entra e vê menu sem área administrativa"
+  ],
+  [
+    "PASS",
+    "Professor não acessa rotas de administrador pela URL"
+  ],
+  [
+    "PASS",
+    "Professor vê apenas os próprios registros (padrão)"
+  ],
+  [
+    "PASS",
+    "Professor registra autorização (nome do professor pré-preenchido)"
+  ],
+  [
+    "PASS",
+    "Professor não vê botões de editar/excluir"
+  ],
+  [
+    "PASS",
+    "Banco compartilhado: admin (outro computador) vê o registro do professor"
+  ],
+  [
+    "PASS",
+    "Permissão ampliada: professor passa a consultar todos"
+  ],
+  [
+    "PASS",
+    "Pesquisa por aluno"
+  ],
+  [
+    "PASS",
+    "Pesquisa por professor"
+  ],
+  [
+    "PASS",
+    "Filtro por turma"
+  ],
+  [
+    "PASS",
+    "Filtro por motivo"
+  ],
+  [
+    "PASS",
+    "Filtro por data"
+  ],
+  [
+    "PASS",
+    "Ordenação por data e horário (mais antigas / recentes)"
+  ],
+  [
+    "PASS",
+    "Visualização detalhada"
+  ],
+  [
+    "PASS",
+    "Edição pelo administrador (com auditoria)"
+  ],
+  [
+    "PASS",
+    "Impressão da autorização (documento A4)"
+  ],
+  [
+    "PASS",
+    "Exclusão com confirmação"
+  ],
+  [
+    "PASS",
+    "Relatórios: totais por dia, turma, professor e motivo"
+  ],
+  [
+    "PASS",
+    "Relatórios: filtro por período (mês anterior vazio)"
+  ],
+  [
+    "PASS",
+    "Exportação CSV e PDF"
+  ],
+  [
+    "PASS",
+    "Auditoria registra criação, alteração e exclusão"
+  ],
+  [
+    "PASS",
+    "Recuperação de senha por e-mail (link + nova senha + login)"
+  ],
+  [
+    "PASS",
+    "Desativar usuário bloqueia o login"
+  ],
+  [
+    "PASS",
+    "Senha provisória definida pelo admin"
+  ],
+  [
+    "PASS",
+    "Último administrador não pode ser rebaixado"
+  ],
+  [
+    "PASS",
+    "Sair da conta encerra a sessão"
+  ],
+  [
+    "PASS",
+    "Layout 1920x1080 do painel"
+  ]
+]
