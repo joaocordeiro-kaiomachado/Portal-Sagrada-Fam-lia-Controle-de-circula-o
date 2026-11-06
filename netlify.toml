@@ -1,0 +1,10 @@
+# O aplicativo fica em uma subpasta; aponta o Netlify para ela.
+[build]
+  base = "portal-sagrada-familia/portal-sagrada-familia"
+  command = "npm ci --include=dev && npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
